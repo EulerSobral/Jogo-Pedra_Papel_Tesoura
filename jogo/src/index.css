@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+header{ 
+  background-color: #fe7236;  
+  margin-top: -15px;
+} 
+.menu-header{ 
+  display: flex; 
+  justify-content: space-around;
+} 
+.menu-header, li{ 
+  list-style: none;
+}
+.img-jogo{ 
+  width: 100px;
+} 
+.img-header{ 
+  width: 70px;
+} 
+.main{ 
+  display: grid; 
+  grid-template-columns: auto auto; 
+  grid-template-rows: auto auto;  
+  margin: 100px 0 0 15vw;
+}  
+.card_jogador .card-bottons{ 
+  margin: 20px 0;   
+} 
+.card-bottons button{ 
+  margin-left: 5px;  
+  transform: translateX(-5px); 
+  background-color: #fe7236; 
+  padding: 5px; 
+  width: 100px;
+  border: 1px solid #ccc; 
+  cursor: pointer;    
+  transition: .5s;
+}  
+.card-bottons button:hover{ 
+  background-color: #db622e;
+} 
+.card_maquina .img-jogo{ 
+  margin-top: 38px;
+} 
+.title-main{ 
+  font-size: 2em; 
+  color: #fe7236; 
+  font-weight: 600;
+}
+.card_vitoria .msg{ 
+  color: #fe7236; 
+  font-size: 1.5em;
+}
